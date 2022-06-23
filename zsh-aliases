@@ -124,6 +124,10 @@ alias note='nvim $(date -v-1d "+%d-%m-%Y").md'
 # Alias specifically for tmux new session 
 alias new='tmux new'
 
+# Alias for java related commands 
+alias mvnci='mvn clean install -DskipTests'
+alias jstart='java -jar target/app.jar'
+
 case "$(uname -s)" in
 
 Darwin)
