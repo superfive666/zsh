@@ -121,6 +121,9 @@ alias gpr="g pr"
 # This creates a note with file name of date.md
 alias note='nvim $(date -v-1d "+%d-%m-%Y").md'
 
+# Alias specifically for tmux new session 
+alias new='tmux new'
+
 case "$(uname -s)" in
 
 Darwin)
