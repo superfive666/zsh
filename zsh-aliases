@@ -104,7 +104,7 @@ alias gch="g cherry-pick"
 alias gchc="g cherry-pick --continue"
 alias gcha="g cherry-pick --abort"
 alias gpl="g pl"
-alias gps="g ps -signed=false" # Some repository does not support signed push
+alias gps="g ps --signed=false" # Some repository does not support signed push
 alias gpsf="g psf"
 alias gcor="g cor"
 alias greb="g reb"
