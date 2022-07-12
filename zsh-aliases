@@ -122,7 +122,7 @@ alias gpr="g pr"
 alias note='nvim $(date -v-1d "+%d-%m-%Y").md'
 
 # Alias specifically for tmux new session 
-alias new='tmux new'
+alias new='tmux -2'
 
 # Alias for java related commands 
 alias mvnci='mvn clean install -DskipTests'
