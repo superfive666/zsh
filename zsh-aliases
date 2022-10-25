@@ -7,6 +7,9 @@ alias nvimrc='nvim ~/.config/nvim/'
 
 alias ll="ls -al"
 
+# alias for bitdeer jump server
+alias sshjump='ssh jump.bitdeer.vip | totp generate jump-bitdeer'
+
 # git related commands
 alias gl='git log'
 alias gc='git commit -am'
