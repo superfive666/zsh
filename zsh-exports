@@ -9,6 +9,11 @@ export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.local/share/go/bin:$PATH
 export GOPATH=$HOME/.local/share/go
 export PATH=$HOME/.fnm:$PATH
+
+# fixing the locale utf-8 issue
+export LC_ALL=en_US.UTF-8  
+export LANG=en_US.UTF-8
+
 eval "$(fnm env)"
 eval "$(zoxide init zsh)"
 # eval "`pip completion --zsh`"
