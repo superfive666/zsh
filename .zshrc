@@ -97,3 +97,8 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 # setxkbmap -option caps:swapescape
 
 
+
+# pnpm
+export PNPM_HOME="/Users/chao.wu/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
