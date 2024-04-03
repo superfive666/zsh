@@ -7,7 +7,7 @@ alias nvimrc='nvim ~/.config/nvim/'
 
 alias ll="ls -al"
 
-alias ssh="kitty +kitten ssh"
+# alias ssh="kitty +kitten ssh"
 
 # alias for bitdeer jump server
 alias sshjump='ssh jump.bitdeer.vip | totp generate jump-bitdeer'
